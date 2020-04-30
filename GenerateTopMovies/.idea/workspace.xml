@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d3c6357-fab8-49ec-b300-6eab0e85de7d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aXb48vYLkyjV3n7zq5mqGR6zoh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/input" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea/input" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="GenerateTopMovies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenerateTopMovies" />
+      <module name="GenerateTopMovies" />
+      <option name="PROGRAM_PARAMETERS" value="input/ output/" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50164" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d3c6357-fab8-49ec-b300-6eab0e85de7d" name="Default Changelist" comment="" />
+      <created>1586884691668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586884691668</updated>
+      <workItem from="1586884695962" duration="6843000" />
+      <workItem from="1587347181836" duration="772000" />
+      <workItem from="1587349197451" duration="1051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1429" y="8" key="#Project_Structure" timestamp="1586884751967">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1429" y="8" key="#Project_Structure/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586884751967" />
+    <state x="-1487" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587347220428">
+      <screen x="-1920" y="-157" width="1920" height="1000" />
+    </state>
+    <state x="-1487" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-157.1920.1000/0.23.1440.877@-1920.-157.1920.1000" timestamp="1587347220428" />
+    <state x="-1958" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586887007509" />
+    <state width="1678" height="271" key="GridCell.Tab.0.bottom" timestamp="1587359220929">
+      <screen x="-1920" y="-157" width="1920" height="1000" />
+    </state>
+    <state width="1678" height="271" key="GridCell.Tab.0.bottom/-1920.-157.1920.1000/0.23.1440.877@-1920.-157.1920.1000" timestamp="1587359220929" />
+    <state width="1678" height="271" key="GridCell.Tab.0.bottom/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586908032258" />
+    <state width="1678" height="271" key="GridCell.Tab.0.center" timestamp="1587359220928">
+      <screen x="-1920" y="-157" width="1920" height="1000" />
+    </state>
+    <state width="1678" height="271" key="GridCell.Tab.0.center/-1920.-157.1920.1000/0.23.1440.877@-1920.-157.1920.1000" timestamp="1587359220928" />
+    <state width="1678" height="271" key="GridCell.Tab.0.center/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586908032258" />
+    <state width="1678" height="271" key="GridCell.Tab.0.left" timestamp="1587359220928">
+      <screen x="-1920" y="-157" width="1920" height="1000" />
+    </state>
+    <state width="1678" height="271" key="GridCell.Tab.0.left/-1920.-157.1920.1000/0.23.1440.877@-1920.-157.1920.1000" timestamp="1587359220928" />
+    <state width="1678" height="271" key="GridCell.Tab.0.left/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586908032257" />
+    <state width="1678" height="271" key="GridCell.Tab.0.right" timestamp="1587359220929">
+      <screen x="-1920" y="-157" width="1920" height="1000" />
+    </state>
+    <state width="1678" height="271" key="GridCell.Tab.0.right/-1920.-157.1920.1000/0.23.1440.877@-1920.-157.1920.1000" timestamp="1587359220929" />
+    <state width="1678" height="271" key="GridCell.Tab.0.right/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586908032258" />
+    <state x="-1181" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1587349197786">
+      <screen x="-1920" y="-157" width="1920" height="1000" />
+    </state>
+    <state x="-1181" y="204" key="com.intellij.ide.util.TipDialog/-1920.-157.1920.1000/0.23.1440.877@-1920.-157.1920.1000" timestamp="1587349197786" />
+    <state x="-1181" y="225" key="com.intellij.ide.util.TipDialog/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586884695978" />
+    <state x="-1327" y="151" key="run.anything.popup" timestamp="1586887531637">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1327" y="151" key="run.anything.popup/-1920.-157.1920.1057/0.23.1440.820@-1920.-157.1920.1057" timestamp="1586887531637" />
+  </component>
+</project>

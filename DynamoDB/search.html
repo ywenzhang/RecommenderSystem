@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kkk</title>
+</head>
+<body>
+<style>
+    table,th,td {border: 1px solid black;}
+</style>
+<h1>Movie Recommendation</h1>
+<label>User ID:</label><br>
+<input type="text" id="userID"><br>
+<input type="button" onclick="loadDoc()" value="Search">
+<table  class="rwd-table">
+    <tr>
+        <th>Movie Title</th>
+        <th>Description</th>
+        <th>Budget</th>
+        <th>Rate</th>
+    </tr>
+    <tr>
+        <td id="d1" data-th="Movie Title"></td>
+        <td id="d2" data-th="Genre"></td>
+        <td id="d3" data-th="Year"></td>
+        <td id="d4" data-th="Gross"></td>
+    </tr>
+    <tr>
+        <td id="d5" data-th="Movie Title"></td>
+        <td id="d6" data-th="Genre"></td>
+        <td id="d7" data-th="Year"></td>
+        <td id="d8" data-th="Gross"></td>
+    </tr>
+    <tr>
+        <td id="d9" data-th="Movie Title"></td>
+        <td id="d10" data-th="Genre"></td>
+        <td id="d11" data-th="Year"></td>
+        <td id="d12" data-th="Gross"></td>
+    </tr>
+    <tr>
+        <td id="d13" data-th="Movie Title"></td>
+        <td id="d14" data-th="Genre"></td>
+        <td id="d15" data-th="Year"></td>
+        <td id="d16" data-th="Gross"></td>
+    </tr>
+    <tr>
+        <td id="d17" data-th="Movie Title"></td>
+        <td id="d18" data-th="Genre"></td>
+        <td id="d19" data-th="Year"></td>
+        <td id="d20" data-th="Gross"></td>
+    </tr>
+</table>
+
+
+<script>
+    function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var data = JSON.parse(xhttp.responseText);
+                document.getElementById("d1").innerHTML = data[0]["title"];
+                document.getElementById("d2").innerHTML = data[0]["description"];
+                document.getElementById("d3").innerHTML = data[0]["budget"];
+                document.getElementById("d4").innerHTML = data[0]["rate"];
+
+                document.getElementById("d5").innerHTML = data[1]["title"];
+                document.getElementById("d6").innerHTML = data[1]["description"];
+                document.getElementById("d7").innerHTML = data[1]["budget"];
+                document.getElementById("d8").innerHTML = data[1]["rate"];
+
+                document.getElementById("d9").innerHTML = data[2]["title"];
+                document.getElementById("d10").innerHTML = data[2]["description"];
+                document.getElementById("d11").innerHTML = data[2]["budget"];
+                document.getElementById("d12").innerHTML = data[2]["rate"];
+
+                document.getElementById("d13").innerHTML = data[3]["title"];
+                document.getElementById("d14").innerHTML = data[3]["description"];
+                document.getElementById("d15").innerHTML = data[3]["budget"];
+                document.getElementById("d16").innerHTML = data[3]["rate"];
+
+                document.getElementById("d17").innerHTML = data[4]["title"];
+                document.getElementById("d18").innerHTML = data[4]["description"];
+                document.getElementById("d19").innerHTML = data[4]["budget"];
+                document.getElementById("d20").innerHTML = data[4]["rate"];
+            }
+
+        };
+        xhttp.open("GET", "data?id="+document.getElementById("userID").value, true);
+        xhttp.send();
+    }
+</script>
+</body>
+</html>
